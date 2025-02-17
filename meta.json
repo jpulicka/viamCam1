@@ -1,0 +1,26 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "jpm:cam1",
+  "visibility": "private",
+  "url": "",
+  "description": "Modular camera component: detect",
+  "models": [
+    {
+      "api": "rdk:component:camera",
+      "model": "jpm:cam1:detect",
+      "short_description": "Camera Detection Module",
+      "markdown_link": "README.md#model-jpmcam1detect"
+    }
+  ],
+  "entrypoint": "./run.sh",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64"
+    ]
+  }
+}

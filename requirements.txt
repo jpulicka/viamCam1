@@ -1,0 +1,5 @@
+viam-sdk==0.40.0
+
+typing-extensions
+
+Pillow
